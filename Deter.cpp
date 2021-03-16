@@ -1,5 +1,6 @@
-//ÅÐ¶ÏÊÇ·ñ´æÔÚÔªËØÔÚÊý×éÖÐµÄ¸öÊý³¬¹ýËùÓÐÔªËØµÄÒ»°ë
-//Èç¹û´æÔÚÔò·µ»Ø1£¬·ñÔò·µ»Ø0
+//åˆ¤æ–­æ˜¯å¦å­˜åœ¨å…ƒç´ åœ¨æ•°ç»„ä¸­çš„ä¸ªæ•°è¶…è¿‡æ‰€æœ‰å…ƒç´ çš„ä¸€åŠ
+//å¦‚æžœå­˜åœ¨åˆ™è¿”å›ž1ï¼Œå¦åˆ™è¿”å›ž0
+
 #include <stdio.h>
 bool Deter(int *a,int sz)
 {
@@ -24,8 +25,8 @@ int main()
 	int sz = sizeof(a) / sizeof(a[0]);
 	int ex = Deter(a,sz);
 	if (ex == 1)
-		printf("´æÔÚÔªËØÔÚÊý×éÖÐµÄ¸öÊý³¬¹ýËùÓÐÔªËØµÄÒ»°ë");
+		printf("å­˜åœ¨å…ƒç´ åœ¨æ•°ç»„ä¸­çš„ä¸ªæ•°è¶…è¿‡æ‰€æœ‰å…ƒç´ çš„ä¸€åŠ");
 	else
-		printf("²»´æÔÚÔªËØÔÚÊý×éÖÐµÄ¸öÊý³¬¹ýËùÓÐÔªËØµÄÒ»°ë");
+		printf("ä¸å­˜åœ¨å…ƒç´ åœ¨æ•°ç»„ä¸­çš„ä¸ªæ•°è¶…è¿‡æ‰€æœ‰å…ƒç´ çš„ä¸€åŠ");
 	return 0;
 }
